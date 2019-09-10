@@ -1,0 +1,101 @@
+@font-face { /* Définition d'une nouvelle police nommée Roboto */
+    font-family: 'Roboto-Regular-webfont';
+    src: url('Roboto-Regular-webfont.eot');
+    src: url('Roboto-Regular-webfont.eot') format('embedded-opentype'),
+         url('Roboto-Regular-webfont.woff') format('woff'),
+         url('Roboto-Regular-webfont.ttf') format('truetype'),
+         url('Roboto-Regular-webfont.svg') format('svg');
+}
+
+h1 /* Utilisation de la police qu'on vient de définir sur les titres */
+{
+    font-family: 'cac_champagneregular', Arial, serif;
+}
+#Logo
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#Gmail
+{
+	display: flex;
+	flex-direction: row;	
+	justify-content: flex-end;
+}
+
+#Images
+{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	border: 1px black solid;
+	border-radius: 20px;
+	
+}
+
+.Images:hover
+{
+	box-shadow: 1px grey 3px;
+}
+
+a:hover
+{
+text-decoration: underline;
+}
+
+
+#Recherche
+{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	border: 1px black solid;
+}
+
+
+
+#Chance
+{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	border: 1px black solid;
+}
+
+#France
+{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	align-content: flex-end;
+}
+
+#France
+{
+	border-left: 0px 1px 0px 0px;
+}
+
+#Publicité
+{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+#Info
+{
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	align-items: baseline;
+	flex-wrap: wrap;	
+}
+
+
+
+
